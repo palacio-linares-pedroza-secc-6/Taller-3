@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T20:13:11.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="f3a45PpgVFuBW5BOMmPP" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T20:52:07.332Z" agent="5.0 (Windows)" etag="HxICBLhDLt-BYGgia8-a" version="20.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1944" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1538" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -32,13 +32,8 @@
         <mxCell id="MLmQVyr9P93g7gufr7wJ-39" value="+" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MLmQVyr9P93g7gufr7wJ-501" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-500" y="1170" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-500" y="1169" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="MLmQVyr9P93g7gufr7wJ-501" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="MLmQVyr9P93g7gufr7wJ-484" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Pasajero" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-590" y="410" width="460" height="580" as="geometry">
@@ -102,7 +97,7 @@
         <mxCell id="MLmQVyr9P93g7gufr7wJ-346" value="- cancelarViaje(): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="476" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MLmQVyr9P93g7gufr7wJ-410" value="+ reportarProblemaEnViaje (list&lt;Viaje&gt; viajes, String destino, String queja): void&#xa;:" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+        <mxCell id="MLmQVyr9P93g7gufr7wJ-410" value="+ reportarProblemaEnViaje (list&lt;Viaje&gt; viajes, String destino, String reporte): void&#xa;:" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="502" width="460" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Viaje" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -211,7 +206,7 @@
         <mxCell id="MLmQVyr9P93g7gufr7wJ-479" value="+ buscarConductorDisponible(list&lt;Conducores&gt; conductores): Conductor" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="MLmQVyr9P93g7gufr7wJ-41" vertex="1">
           <mxGeometry y="190" width="630" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MLmQVyr9P93g7gufr7wJ-480" value="+ solucionarReporte(Reporte queja): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="MLmQVyr9P93g7gufr7wJ-41" vertex="1">
+        <mxCell id="MLmQVyr9P93g7gufr7wJ-480" value="+ solucionarReporte(String reporte): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="MLmQVyr9P93g7gufr7wJ-41" vertex="1">
           <mxGeometry y="216" width="630" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MLmQVyr9P93g7gufr7wJ-56" value="" style="endArrow=open;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
@@ -358,16 +353,16 @@
         <mxCell id="MLmQVyr9P93g7gufr7wJ-415" value="Se reporta en el viaje mas reciente" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-710" y="880" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="MLmQVyr9P93g7gufr7wJ-417" value="" style="endArrow=open;html=1;rounded=0;endFill=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.639;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLmQVyr9P93g7gufr7wJ-41" target="DtTnKsdw9SCXisd61i33-0" edge="1">
+        <mxCell id="MLmQVyr9P93g7gufr7wJ-417" value="" style="endArrow=open;html=1;rounded=0;endFill=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLmQVyr9P93g7gufr7wJ-41" target="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-175" y="210" as="sourcePoint" />
-            <mxPoint x="-50" y="410" as="targetPoint" />
+            <mxPoint x="-240" y="400" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-80" y="280" />
+              <mxPoint x="-245" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLmQVyr9P93g7gufr7wJ-418" value="* &lt;br&gt;QuejasReportadas" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="MLmQVyr9P93g7gufr7wJ-417" connectable="0" vertex="1">
+        <mxCell id="MLmQVyr9P93g7gufr7wJ-418" value="* &lt;br&gt;Reportes" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="MLmQVyr9P93g7gufr7wJ-417" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="-2" y="-10" as="offset" />
           </mxGeometry>
@@ -483,7 +478,7 @@
           <mxGeometry x="1090" y="940" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="MLmQVyr9P93g7gufr7wJ-484" value="Tarjeta" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-665" y="1169" width="295" height="181" as="geometry">
+          <mxGeometry x="-507.5" y="1169" width="295" height="181" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -499,67 +494,82 @@
         <mxCell id="MLmQVyr9P93g7gufr7wJ-491" value="+ Tarjeta(int, codigo, String nombreDelPropietario)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MLmQVyr9P93g7gufr7wJ-484" vertex="1">
           <mxGeometry y="98" width="295" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MLmQVyr9P93g7gufr7wJ-498" value="+ getCodigo(): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MLmQVyr9P93g7gufr7wJ-484" vertex="1">
+        <mxCell id="MLmQVyr9P93g7gufr7wJ-498" value="+ getCodigo(): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MLmQVyr9P93g7gufr7wJ-484" vertex="1">
           <mxGeometry y="124" width="295" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MLmQVyr9P93g7gufr7wJ-499" value="+ getNombreDelPropietario(): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MLmQVyr9P93g7gufr7wJ-484" vertex="1">
+        <mxCell id="MLmQVyr9P93g7gufr7wJ-499" value="+ getNombreDelPropietario(): nombre" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MLmQVyr9P93g7gufr7wJ-484" vertex="1">
           <mxGeometry y="150" width="295" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MLmQVyr9P93g7gufr7wJ-502" value="" style="group" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
-          <mxGeometry x="-509.99993540755304" y="1159.9982347295795" as="geometry" />
+          <mxGeometry x="-259.99993540755304" y="1149.9982347295795" as="geometry" />
         </mxCell>
         <mxCell id="MLmQVyr9P93g7gufr7wJ-503" value="*&lt;br&gt;tarjetasRegistradas" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;container=1;" parent="MLmQVyr9P93g7gufr7wJ-502" connectable="0" vertex="1">
           <mxGeometry as="geometry" />
         </mxCell>
-        <mxCell id="u0-29k0Xb5cVbxDuMh5w-0" value="Glosario" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1320" y="410" width="330" height="890" as="geometry" />
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-0" value="Glosario" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1320" y="410" width="340" height="1110" as="geometry" />
         </mxCell>
-        <mxCell id="u0-29k0Xb5cVbxDuMh5w-3" value="Aplicacion:&#xa;La clase aplicacion va a tener un atributo que sera el objeto&#xa;de clase UB*R. En sus metodos se va a encontrar el main, &#xa;por lo que sera donde vamos a correr el programa, otros &#xa;metodos seran mostrarMenu() por lo que se puede definir &#xa;que aplicacion es la interfaz del usuario, &#xa;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;fontStyle=0" parent="u0-29k0Xb5cVbxDuMh5w-0" vertex="1">
-          <mxGeometry y="30" width="330" height="90" as="geometry" />
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-3" value="Aplicacion:&#xa;La clase aplicacion va a tener un atributo que sera el objeto&#xa;de clase UB*R. En sus metodos se va a encontrar el main, &#xa;por lo que sera donde vamos a correr el programa, otros &#xa;metodos seran mostrarMenu() por lo que se puede definir &#xa;que aplicacion es la interfaz del usuario, &#xa;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;fontStyle=0" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-0">
+          <mxGeometry y="30" width="340" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="u0-29k0Xb5cVbxDuMh5w-18" value="UB*R:&#xa;Sera la &#xa;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;" parent="u0-29k0Xb5cVbxDuMh5w-0" vertex="1">
-          <mxGeometry y="120" width="330" height="110" as="geometry" />
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-18" value="UB*R:&#xa;Sera la clase en donde se crearan las instancias de las otras&#xa;clases que hacen refenrencia a los usuarios de la aplicacion,&#xa;estos se almacenaran en un conjunto de elemtos por cada &#xa;clase, ej(Conductores, las instancias de la clase &#xa;conductores se guardan en la list Conductores). Esta clase&#xa;conecta las instancias de diferentes clases para que &#xa;interactuen entre ella.&#xa; " style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-0">
+          <mxGeometry y="120" width="340" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="u0-29k0Xb5cVbxDuMh5w-24" value="Conductor:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;" parent="u0-29k0Xb5cVbxDuMh5w-0" vertex="1">
-          <mxGeometry y="230" width="330" height="110" as="geometry" />
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-24" value="Conductor:&#xa;Esta clase hace referencia a los usuarios conocidos como&#xa;conductores, tendran la informacion basico del conductor en&#xa;sus atributos, con lo que se le podra indentificar tiene un &#xa;conjuntos de  elementos de (1...*) que seria la lista &#xa;de Vehiculos disponibles para ese conductor, entonces tendra&#xa;una funcion de poder agregar vehiculos, pero primero tienen &#xa;que ser revisado por un administrador para que sean &#xa;aporvados y  asignados una categoria. Tiene metodos para&#xa;modificar instancais de la clase viaje, tal y como cancelar un&#xa;viaje o aceptar un viaje.&#xa;&#xa;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;whiteSpace=wrap;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-0">
+          <mxGeometry y="240" width="340" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="u0-29k0Xb5cVbxDuMh5w-23" value="Pasajero:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;" parent="u0-29k0Xb5cVbxDuMh5w-0" vertex="1">
-          <mxGeometry y="340" width="330" height="110" as="geometry" />
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-23" value="Pasajero: Esta clase hace referencia hacia los usuarios de la aplicacion que buscan pedir un viaje. Tendran informacion basica de un usuario de la aplicacion (nombre, telefono, correo) ademas de una lista de Tarjetas que podra utilizar como metodo de Pago. Esta clase podra instanciar objetos de la clase Viaje con su ubicacion actual y metododePago ademas de ingresar su destino. Tambien puede modficar instancias de viaje, agreandole pasajeros o cancelando un viaje." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;whiteSpace=wrap;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-0">
+          <mxGeometry y="400" width="340" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="u0-29k0Xb5cVbxDuMh5w-22" value="Admin:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;" parent="u0-29k0Xb5cVbxDuMh5w-0" vertex="1">
-          <mxGeometry y="450" width="330" height="110" as="geometry" />
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-22" value="Admin:&#xa;La clase de admin tiene atributos para identificarlo (nombre y correo) tambien tiene una instancia que define si esta disponible para trabajar de tipo booleano. Sus metodos funcionan para solucionar o administrar la informacion entre conductor y pasajero ej (manejar los vehiculos o manejar problemas con los viajes)&#xa;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;whiteSpace=wrap;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-0">
+          <mxGeometry y="530" width="340" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="u0-29k0Xb5cVbxDuMh5w-21" value="Viaje:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;" parent="u0-29k0Xb5cVbxDuMh5w-0" vertex="1">
-          <mxGeometry y="560" width="330" height="110" as="geometry" />
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-21" value="Viaje:&#xa;La clase de viaje, tiene atributos que seran enviados desde la clase pasajero ya que este es el que crea la instancia del viaje cuando lo solicita, otro atributo seran cambiados por el conductor. los methodos principales de esta clase son de conseguir la informacion para poder usar despues, tambien tiene methodos de buscar un conductor para el viaje. Las intancias de esta clase se guardan como atributos en la clase Conductor y Pasajero  en un conjunto llamado viajesPrevios.&#xa;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;whiteSpace=wrap;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-0">
+          <mxGeometry y="640" width="340" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="u0-29k0Xb5cVbxDuMh5w-20" value="Vehiculo:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;" parent="u0-29k0Xb5cVbxDuMh5w-0" vertex="1">
-          <mxGeometry y="670" width="330" height="110" as="geometry" />
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-20" value="Vehiculo:&#xa;La clase vehiculo solo crea la instancia de los vehiculos del conductor que va a usar para los viajes, las instancias se guardaran en Conductor en un lista de Objetos de conductores que tiene que ir de 1...*, estos objetos antes de ser agregados tienen que ser asignados una categoria por un administrador y aprovados&#xa;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;whiteSpace=wrap;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-0">
+          <mxGeometry y="780" width="340" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="u0-29k0Xb5cVbxDuMh5w-19" value="Tarjeta:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;" parent="u0-29k0Xb5cVbxDuMh5w-0" vertex="1">
-          <mxGeometry y="780" width="330" height="110" as="geometry" />
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-25" value="Reporte: Esta clase sirve para insanciar momentos en los cuales el Pasajero quiera reportar un viaje reciente. Tiene como atributos su viaje asociado y la queja relacionada a este viaje, ademas de metodos asociados para sacarlos" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;whiteSpace=wrap;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-0">
+          <mxGeometry y="890" width="340" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="DtTnKsdw9SCXisd61i33-0" value="Reporte" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-270" y="1169" width="295" height="181" as="geometry">
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-19" value="Tarjeta: Esta clase sirve para diferenciar los metodos de pago que tiene el pasajero. Tiene un atributo para su codigo y otro para el nombre de su proprietario, ademas de metodos para sacarlos." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;sketch=0;whiteSpace=wrap;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-0">
+          <mxGeometry y="1000" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-26" value="Reporte" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-827" y="1169" width="295" height="181" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DtTnKsdw9SCXisd61i33-1" value="- viajeAReportar: Viaje" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DtTnKsdw9SCXisd61i33-0">
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-27" value="- viajeAReportar: Viaje" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-26">
           <mxGeometry y="30" width="295" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DtTnKsdw9SCXisd61i33-2" value="- queja: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DtTnKsdw9SCXisd61i33-0">
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-28" value="- queja: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-26">
           <mxGeometry y="60" width="295" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DtTnKsdw9SCXisd61i33-3" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="DtTnKsdw9SCXisd61i33-0">
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-29" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-26">
           <mxGeometry y="90" width="295" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DtTnKsdw9SCXisd61i33-7" value="+ Reporte (Viaje viajeAReportar , String queja)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DtTnKsdw9SCXisd61i33-0">
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-30" value="+ Reporte(Viaje, viaje, String queja)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-26">
           <mxGeometry y="98" width="295" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DtTnKsdw9SCXisd61i33-5" value="+ getQueja(): string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DtTnKsdw9SCXisd61i33-0">
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-31" value="+ getQueja(): String " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-26">
           <mxGeometry y="124" width="295" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DtTnKsdw9SCXisd61i33-6" value="+ getViajeAReportar(): Viaje" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DtTnKsdw9SCXisd61i33-0">
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-32" value="+ getViajeReportado(): Viaje" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-26">
           <mxGeometry y="150" width="295" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MLmQVyr9P93g7gufr7wJ-467">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-750" y="360" as="sourcePoint" />
+            <mxPoint x="-790" y="1169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-34" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-689.999935407553" y="1149.9982347295795" as="geometry" />
+        </mxCell>
+        <mxCell id="u0-29k0Xb5cVbxDuMh5w-35" value="*&lt;br&gt;QuejasReportadas" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;container=1;" connectable="0" vertex="1" parent="u0-29k0Xb5cVbxDuMh5w-34">
+          <mxGeometry as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
